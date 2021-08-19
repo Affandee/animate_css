@@ -119,14 +119,17 @@
 
 @keyframes rotation {
     0%{
+        /*starts at 0 degress*/
         transform: rotate(0deg);
     }
 
     100%{
+        /*end rotation at 360 deg*/
         transform: rotate(360deg);
     }
 }
 
 #loading{
+    /* user animation from keyframe*/
     animation: rotation ease-in-out 2s infinite;
 }
